@@ -3,6 +3,8 @@ import { BiBitcoin } from 'react-icons/bi'
 import { MdExplore } from 'react-icons/md'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
+import { SliderContent } from './SliderContent'
+
 import user1 from '../components/assets/images/user-1.jpg'
 import user2 from '../components/assets/images/user-2.jpg'
 import user3 from '../components/assets/images/user-3.jpg'
@@ -11,6 +13,7 @@ export const HomePage = () => {
   return (
     <>
       <Home />
+      <SliderContent />
     </>
   )
 }
