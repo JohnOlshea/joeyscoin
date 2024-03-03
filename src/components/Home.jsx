@@ -13,6 +13,7 @@ import user3 from '../components/assets/images/user-3.jpg'
 import homeImg1 from '../components/assets/images/homeImg1.png'
 import homeImg2 from '../components/assets/images/homeImg2.png'
 import homeImg3 from '../components/assets/images/homeImg3.png'
+import { Collections } from './Collections'
 
 export const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ export const HomePage = () => {
       <TrendingAuthor />
       <HomeWrapper />
       <Banner />
+      <Collections />
     </>
   )
 }
