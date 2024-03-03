@@ -4,6 +4,7 @@ import { MdExplore } from 'react-icons/md'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
 import { SliderContent } from './SliderContent'
+import { TrendingAuthor } from './TrendingAuthor'
 
 import user1 from '../components/assets/images/user-1.jpg'
 import user2 from '../components/assets/images/user-2.jpg'
@@ -14,6 +15,7 @@ export const HomePage = () => {
     <>
       <Home />
       <SliderContent />
+      <TrendingAuthor />
     </>
   )
 }
