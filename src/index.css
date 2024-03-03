@@ -32,3 +32,59 @@ body {
     font-family: "Poppins", sans-serif;
     text-transform: capitalize
 }
+
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%
+}
+
+.flex {
+    align-items: center;
+    display: flex
+}
+
+.flex-b,
+.flex-b-g {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.flex-b-g {
+    gap: 20px
+}
+
+a,
+button,
+li,
+ul {
+    background: none;
+    border: none;
+    color: #fff;
+    color: var(--white);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+header {
+    padding: 20px 0
+}
+
+header .logo img {
+    width: 50px
+}
+
+header button {
+    font-size: 1rem;
+}
+
+header .open-menu {
+    display: none;
+    cursor: pointer;
+}
