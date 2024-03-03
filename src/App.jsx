@@ -16,7 +16,7 @@ function App() {
           <Route path='/shop' element={<Layout><ShopPage /></Layout>} />
           <Route path='/blog' element={<Layout><BlogPages /></Layout>} />
           <Route path='/single-page' element={<Layout><BlogSinglePages /></Layout>} />
-          <Route path='/dasboard' element={<Dashboard />} />
+          <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import nft10 from "./assets/images/nft10.jpg";
 import post1 from "./assets/images/blog/post1.png";
@@ -71,7 +71,7 @@ export const ShopPage = () => {
 export const ShopCard = ({cover}) => {
   return (
     <>
-          <div className="shop-card" style={{borderRadius: "0.7rem", cursor: "pointer", overflow: "hidden"}}>
+          <Link to="/single-page" className="shop-card" style={{borderRadius: "0.7rem", cursor: "pointer", overflow: "hidden"}}>
             <div className="shop-card_image" style={{display: "flex", overflow: "hidden"}}>
                 <img src={cover} alt="" />
             </div>
@@ -86,7 +86,7 @@ export const ShopCard = ({cover}) => {
                     <span style={{color: "#fff", fontSize: "12px", border: "1px solid #ffffff38", borderRadius: "0.5rem", padding: "0.5rem 1rem"}}>1 day 8 hours</span>
                 </div>
             </div>
-          </div>
+          </Link>
     </>
   )
 }

@@ -39,7 +39,7 @@ function Header() {
             <button>
                 <BiShoppingBag size={22}/>
             </button>
-            <Link to="/dasboard" style={{display: "flex"}}>
+            <Link to="/dashboard" style={{display: "flex"}}>
               Dashboard
             </Link>
             <button class="open-menu" onClick={() => setOpen(!open)}>
