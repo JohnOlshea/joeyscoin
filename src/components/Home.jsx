@@ -9,6 +9,9 @@ import { TrendingAuthor } from './TrendingAuthor'
 import user1 from '../components/assets/images/user-1.jpg'
 import user2 from '../components/assets/images/user-2.jpg'
 import user3 from '../components/assets/images/user-3.jpg'
+import homeImg1 from '../components/assets/images/homeImg1.png'
+import homeImg2 from '../components/assets/images/homeImg2.png'
+import homeImg3 from '../components/assets/images/homeImg3.png'
 
 export const HomePage = () => {
   return (
@@ -16,6 +19,7 @@ export const HomePage = () => {
       <Home />
       <SliderContent />
       <TrendingAuthor />
+      <HomeWrapper />
     </>
   )
 }
@@ -60,3 +64,25 @@ export const Home = () => {
   )
 }
 
+export const HomeWrapper = () => {
+  return (
+    <section className="home home-wrapper">
+      <div className="container">
+        <div className="w-50">
+          <h1>
+            We work together to <br />
+            create beautiful products <br />
+            you will <span>love</span>.
+          </h1>
+        </div>
+        <div className="w-50 right">
+          <div className="images">
+            <img src={homeImg1} alt="" />
+            <img src={homeImg2} alt="" />
+            <img src={homeImg3} alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
