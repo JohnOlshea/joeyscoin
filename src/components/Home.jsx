@@ -5,6 +5,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
 import { SliderContent } from './SliderContent'
 import { TrendingAuthor } from './TrendingAuthor'
+import { Banner } from './Banner'
 
 import user1 from '../components/assets/images/user-1.jpg'
 import user2 from '../components/assets/images/user-2.jpg'
@@ -20,6 +21,7 @@ export const HomePage = () => {
       <SliderContent />
       <TrendingAuthor />
       <HomeWrapper />
+      <Banner />
     </>
   )
 }
