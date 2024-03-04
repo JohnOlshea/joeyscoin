@@ -23,7 +23,7 @@ function Header() {
                 <NavLink className="active" to="/">Home</NavLink>
               </li>
               <li onClick={() => setOpen(null)}>
-                <NavLink className="" to="/crypto">Crypto</NavLink>
+                <a href="https://traderjoey.vercel.app">Crypto</a>
               </li>
               <li onClick={() => setOpen(null)}>
                 <NavLink className="" to="/portfolio">Porfolio</NavLink>
