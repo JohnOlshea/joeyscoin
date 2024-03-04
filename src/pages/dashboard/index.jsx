@@ -9,6 +9,9 @@ import creator1 from '../../assets/images/creator1.jpg';
 import creator2 from '../../assets/images/creator2.jpg';
 import creator3 from '../../assets/images/creator3.jpg';
 import creator4 from '../../assets/images/creator4.jpg';
+import activity1 from '../../assets/images/activity-1.jpg';
+import activity2 from '../../assets/images/activity-2.jpg';
+import activity3 from '../../assets/images/activity-3.jpg';
 import nft1 from '../../assets/images/nft-1.jpg';
 import nft2 from '../../assets/images/nft-2.jpg';
 import nft3 from '../../assets/images/nft-3.jpg';
@@ -240,7 +243,66 @@ export const Dashboard = () => {
           </div>
         </div>
 
+        <div className="side-container">
+          <div className="activity">
+            <div className="activity-title flex-div">
+              <h1>Recent Activity</h1>
+              <div className="day flex-div">
+                <p>Today</p>
+                <a href="#"><MdExplore size={25} /></a>
+              </div>
+            </div>
+            <div className="activity-items">
+              <div className="items flex-div">
+                <a href="#">
+                  <img src={activity1} className="activity-thumbnail"
+                    alt="NFT Activity 1" />
+                </a>
+                <div className="items-detail">
+                  <div className="flex-div">
+                    <h2>Clardian</h2>
+                    <p>5m ago</p>
+                  </div>
+                  <p>Purchased 2,55 ETH/37542,78 USD</p>
+                </div>
+              </div>
+            </div>
+            <div className="activity-items">
+              <div className="items flex-div">
+                <a href="#">
+                  <img src={activity2} className="activity-thumbnail"
+                    alt="NFT Activity 2" />
+                </a>
+                <div className="items-detail">
+                  <div className="flex-div">
+                    <h2>Rooster</h2>
+                    <p>5d ago</p>
+                  </div>
+                  <p>Purchased 7,55 ETH/89542,78 USD</p>
+                </div>
+              </div>
+            </div>
+            <div className="activity-items">
+              <div className="items flex-div">
+                <a href="#">
+                  <img src={activity3} className="activity-thumbnail"
+                    alt="NFT Activity 3" />
+                </a>
+                <div className="items-detail">
+                  <div className="flex-div">
+                    <h2>Shoe Calk</h2>
+                    <p>6d ago</p>
+                  </div>
+                  <p>Purchased 1,79 ETH/12542,78 USD</p>
+                </div>
+              </div>
+            </div>
+            <div className="activity-button flex-div">
+              <button>Show All</button>
+            </div>
+          </div>
 
+        </div>
 
       </div>
 
