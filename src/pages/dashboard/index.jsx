@@ -372,6 +372,10 @@ export const Dashboard = () => {
 
       </div>
 
+      <div className="copyright">
+        <p>Copyright &copy; 2024 <span>TraderJoey</span></p>
+      </div>
+
     </div>
   )
 }
