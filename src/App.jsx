@@ -1,9 +1,9 @@
-import Layout from './components/common/Layout'
-import { HomePage } from './components/Home';
+import Layout from './Layout'
+import { HomePage } from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { BlogPages, BlogSinglePages } from './components/BlogPages';
-import { PortfolioPage } from './components/PortfolioPage';
-import { ShopPage } from './components/ShopPage';
+import { BlogPages, BlogSinglePages } from './pages/BlogPages';
+import { PortfolioPage } from './pages/PortfolioPage';
+import { ShopPage } from './pages/ShopPage';
 import { Dashboard } from './pages/dashboard';
 
 function App() {

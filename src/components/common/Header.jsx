@@ -37,10 +37,10 @@ function Header() {
             </ul>
           </nav>
           <div class="account flex-b-g">
-            <button>
+            <button class="login-inactive">
                 <BiShoppingBag size={22}/>
             </button>
-            <Link to="/dashboard" style={{display: "flex"}}>
+            <Link className="account-dasboard" to="/dashboard" style={{display: "flex"}}>
               Dashboard
             </Link>
             <button class="open-menu" onClick={() => setOpen(!open)}>
