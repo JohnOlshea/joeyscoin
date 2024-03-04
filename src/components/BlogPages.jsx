@@ -2,11 +2,11 @@ import React from 'react'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import { NavLink } from 'react-router-dom'
 
-import post1 from './assets/images/blog/post1.png'
-import post2 from './assets/images/blog/post2.png'
-import post3 from './assets/images/blog/post3.png'
-import post4 from './assets/images/blog/post4.jpg'
-import post5 from './assets/images/blog/post5.png'
+import post1 from '../assets/images/blog/post1.png'
+import post2 from '../assets/images/blog/post2.png'
+import post3 from '../assets/images/blog/post3.png'
+import post4 from '../assets/images/blog/post4.jpg'
+import post5 from '../assets/images/blog/post5.png'
 import { Banner } from './Banner'
 
 export const BlogPages = () => {

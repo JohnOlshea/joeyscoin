@@ -3,18 +3,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import nft1 from '../components/assets/images/nft1.jpg'
-import nft2 from '../components/assets/images/nft2.jpg'
-import nft3 from '../components/assets/images/nft3.jpg'
-import nft4 from '../components/assets/images/nft4.jpg'
-import nft5 from '../components/assets/images/nft5.jpg'
-import nft6 from '../components/assets/images/nft6.jpg'
-import nft7 from '../components/assets/images/nft7.jpg'
-import nft8 from '../components/assets/images/nft8.jpg'
-import nft9 from '../components/assets/images/nft9.jpg'
-import nft10 from '../components/assets/images/nft10.jpg'
-import nft11 from '../components/assets/images/nft11.jpg'
-import nft12 from '../components/assets/images/nft12.jpg'
+import nft1 from '../assets/images/nft1.jpg'
+import nft2 from '../assets/images/nft2.jpg'
+import nft3 from '../assets/images/nft3.jpg'
+import nft4 from '../assets/images/nft4.jpg'
+import nft5 from '../assets/images/nft5.jpg'
+import nft6 from '../assets/images/nft6.jpg'
+import nft7 from '../assets/images/nft7.jpg'
+import nft8 from '../assets/images/nft8.jpg'
+import nft9 from '../assets/images/nft9.jpg'
+import nft10 from '../assets/images/nft10.jpg'
+import nft11 from '../assets/images/nft11.jpg'
+import nft12 from '../assets/images/nft12.jpg'
 
 export const SliderContent = () => {
     const settings = {

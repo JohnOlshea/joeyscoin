@@ -30,7 +30,7 @@
 body {
     background-color: #2b0054;
     background-color: var(--qode-third-color);
-    background-image: url("./components/assets/images/background.jpg");
+    background-image: url("./assets/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -105,7 +105,7 @@ header .open-menu {
 
 .home .container {
     align-items: center;
-    background-image: url("./components/assets/images/hero-container-bg.png");
+    background-image: url("./assets/images/hero-container-bg.png");
     background-position: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -227,7 +227,8 @@ label {
 .author img {
     border: none;
     height: 120px;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     top: -60px;
     width: 120px
@@ -235,7 +236,8 @@ label {
 
 .author label {
     display: block;
-    padding: 40px
+    padding: 40px;
+    margin-left: 0;
 }
 
 .home-wrapper .right {
@@ -275,18 +277,18 @@ label {
 }
 
 .banner .box1 {
-    background: url("./components/assets/images/banner-bg.jpg");
+    background: url("./assets/images/banner-bg.jpg");
     background-size: cover
 }
 
 .banner .box2 {
-    background: url("./components/assets/images/box-bg1.jpg");
+    background: url("./assets/images/box-bg1.jpg");
     background-size: cover;
     height: 70vh
 }
 
 .banner .box3 {
-    background: url(./components/assets/images/box-bg2.gif);
+    background: url("./assets/images/box-bg2.gif");
     height: 70vh
 }
 
@@ -335,8 +337,12 @@ footer {
 }
 
 footer .logo img {
-    margin-bottom: 50px;
+    margin-bottom: 1rem;
     width: 120px
+}
+
+footer .app {
+    margin-bottom: 0.4rem;    
 }
 
 footer .left {
@@ -366,8 +372,18 @@ footer .left span {
     font-size: 12px
 }
 
+footer .left .info {
+    opacity: .6;
+    font-size: 12px;    
+}
+
 footer .left label {
     font-size: 13px
+}
+
+
+footer .right h3 {
+    margin-bottom: 2rem;    
 }
 
 footer li h4 {
@@ -431,18 +447,53 @@ footer li a:hover {
     margin: 30px 0
 }
 
+.blog.blogpage .container {
+    margin-bottom: 1px;
+}
+
+.blog.blogpage .card {
+    cursor: default;
+    padding: 0;
+    border: 0;    
+}
+
+.blog.blogpage .card:hover {
+    background: inherit;
+}
+
+.blog.blogpage .card .img {
+    height: 21rem;
+    margin-bottom: 2rem;
+}
+
+.blog.blogpage .card .img img {
+
+}
+
 .blogpage h1 {
-    font-size: 50px
+    font-size: 30px
 }
 
 .blogpage p {
-    font-size: 17px;
     line-height: 35px;
     margin: 20px 0
 }
 
 .blogpage h3 {
-    font-size: 30px
+    font-size: 20px
+}
+
+.blog .container .box h1 {
+    font-size: 30px;
+}
+
+.blog .container .box h3 {
+    font-size: 25px;
+}
+
+.blog.blogpage .banner .box1 {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
 .shop-card .shop-card_image img {
@@ -571,7 +622,7 @@ footer li a:hover {
     }
 
     .author img {
-        left: 30%
+        /* left: 30% */
     }
 
     .home-wrapper img {

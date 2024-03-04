@@ -1,8 +1,8 @@
 import React from 'react'
 
-import authorImg1 from '../components/assets/images/authorImg1.png'
-import authorImg2 from '../components/assets/images/authorImg2.jfif'
-import authorImg3 from '../components/assets/images/authorImg3.jfif'
+import authorImg1 from '../assets/images/authorImg1.png'
+import authorImg2 from '../assets/images/authorImg2.jfif'
+import authorImg3 from '../assets/images/authorImg3.jfif'
 
 export const TrendingAuthor = () => {
   return (

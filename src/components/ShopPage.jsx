@@ -2,14 +2,13 @@ import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
-import nft10 from "./assets/images/nft10.jpg";
-import post1 from "./assets/images/blog/post1.png";
-import post2 from "./assets/images/blog/post2.png";
-import post3 from "./assets/images/blog/post3.png";
-import post4 from "./assets/images/blog/post4.jpg";
-import post5 from "./assets/images/blog/post5.png";
-
-import shopBanner from "./assets/images/shop-banner.avif";
+import nft10 from "../assets/images/nft10.jpg";
+import post1 from "../assets/images/blog/post1.png";
+import post2 from "../assets/images/blog/post2.png";
+import post3 from "../assets/images/blog/post3.png";
+import post4 from "../assets/images/blog/post4.jpg";
+import post5 from "../assets/images/blog/post5.png";
+import shopBanner from "../assets/images/shop-banner.avif";
 
 export const ShopPage = () => {
   return (

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo.svg";
 import { BiShoppingBag } from "react-icons/bi"
 import { HiOutlineMenuAlt1 } from "react-icons/hi"
 import { NavLink, Link } from "react-router-dom";
+
+import logo from "../../assets/images/logo.svg";
 
 function Header() {
   const [open, setOpen] = useState(false);

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import covImg1 from './assets/images/covImg1.png'
-import covImg2 from './assets/images/covImg2.png'
-import covImg3 from './assets/images/covImg3.png'
-import userImg1 from './assets/images/authorImg1.png'
-import userImg2 from './assets/images/authorImg2.jfif'
-import userImg3 from './assets/images/authorImg3.jfif'
+import covImg1 from '../assets/images/covImg1.png'
+import covImg2 from '../assets/images/covImg2.png'
+import covImg3 from '../assets/images/covImg3.png'
+import userImg1 from '../assets/images/authorImg1.png'
+import userImg2 from '../assets/images/authorImg2.jfif'
+import userImg3 from '../assets/images/authorImg3.jfif'
 
 export const Collections = () => {
   return (

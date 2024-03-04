@@ -7,12 +7,12 @@ import { SliderContent } from './SliderContent'
 import { TrendingAuthor } from './TrendingAuthor'
 import { Banner } from './Banner'
 
-import user1 from '../components/assets/images/user-1.jpg'
-import user2 from '../components/assets/images/user-2.jpg'
-import user3 from '../components/assets/images/user-3.jpg'
-import homeImg1 from '../components/assets/images/homeImg1.png'
-import homeImg2 from '../components/assets/images/homeImg2.png'
-import homeImg3 from '../components/assets/images/homeImg3.png'
+import user1 from '../assets/images/user-1.jpg'
+import user2 from '../assets/images/user-2.jpg'
+import user3 from '../assets/images/user-3.jpg'
+import homeImg1 from '../assets/images/homeImg1.png'
+import homeImg2 from '../assets/images/homeImg2.png'
+import homeImg3 from '../assets/images/homeImg3.png'
 import { Collections } from './Collections'
 
 export const HomePage = () => {

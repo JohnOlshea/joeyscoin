@@ -2,7 +2,7 @@ import React from 'react'
 import { BsApple } from 'react-icons/bs'
 import { AiOutlineGoogle } from 'react-icons/ai'
 
-import logo from './assets/images/logo.svg'
+import logo from '../../assets/images/logo.svg'
 import { NavLink } from 'react-router-dom'
 
 export const Footer = () => {
@@ -15,7 +15,6 @@ export const Footer = () => {
                             <img src={logo} alt="Coinroll" />
                         </div>
                         <h5>Download app for FREE</h5>
-                        <br />
                         <div className="app flex">
                             <div className="box flex">
                                 <div>
@@ -36,7 +35,7 @@ export const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <label htmlFor="">*Currently Available In The U.S. And Canada</label>
+                        <label className="info" htmlFor="">*Currently Available In The U.S. And Canada</label>
                     </div>
                     <div className="right">
                         <h3>🖐️ We Would Like To Be In Touch.</h3>
