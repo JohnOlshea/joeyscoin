@@ -301,7 +301,73 @@ export const Dashboard = () => {
               <button>Show All</button>
             </div>
           </div>
-
+          <div className="top-creators">
+            <div className="top-title flex-div">
+              <h1>Top Creators</h1>
+              <div className="see-all flex-div">
+                <p>See All</p>
+                <a href="#">
+                <MdExplore size={25} />  
+                </a>
+              </div>
+            </div>
+            <div className="top-items">
+              <div className="items-creator flex-div">
+                <div className="items-thumbnail flex-div">
+                  <img src={creator3} alt="Creator-3" />
+                    <div>
+                      <h2>Michael Urban</h2>
+                      <p>120 Content</p>
+                    </div>
+                </div>
+                <div className="thumbnail-button">
+                  <button>Follow</button>
+                </div>
+              </div>
+            </div>
+            <div className="top-items">
+              <div className="items-creator flex-div">
+                <div className="items-thumbnail flex-div">
+                  <img src={creator2} alt="Creator-2" />
+                    <div>
+                      <h2>Steven Dominic</h2>
+                      <p>124 Content</p>
+                    </div>
+                </div>
+                <div className="thumbnail-button">
+                  <button>Follow</button>
+                </div>
+              </div>
+            </div>
+            <div className="top-items">
+              <div className="items-creator flex-div">
+                <div className="items-thumbnail flex-div">
+                  <img src={creator1} alt="Creator-1" />
+                    <div>
+                      <h2>Gigs Pieter</h2>
+                      <p>95 Content</p>
+                    </div>
+                </div>
+                <div className="thumbnail-button">
+                  <button>Follow</button>
+                </div>
+              </div>
+            </div>
+            <div className="top-items">
+              <div className="items-creator flex-div">
+                <div className="items-thumbnail flex-div">
+                  <img src={creator4} alt="Creator-1" />
+                    <div>
+                      <h2>Antonie Hogs</h2>
+                      <p>84 Content</p>
+                    </div>
+                </div>
+                <div className="thumbnail-button">
+                  <button>Follow</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
