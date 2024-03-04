@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { MdExplore } from 'react-icons/md'
 
+import logo from '../../assets/images/logo.png';
 import profile from '../../assets/images/profile.jpg';
 
 export const Dashboard = () => {
@@ -37,7 +39,14 @@ export const Dashboard = () => {
       </nav>
 
 
-
+      <div className="side-bar">
+        <div className="logo">
+          <Link to="/"><img src={logo} alt="Logo" /></Link>
+        </div>
+        <div className="shorcut-links">
+          <Link to="/"><MdExplore size={25} /></Link>
+        </div>
+      </div>
 
 
     </div>
