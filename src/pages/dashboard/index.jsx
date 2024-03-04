@@ -6,6 +6,15 @@ import mainNft from '../../assets/images/main-nft.jpg';
 import logo from '../../assets/images/logo.png';
 import profile from '../../assets/images/profile.jpg';
 import creator1 from '../../assets/images/creator1.jpg';
+import creator2 from '../../assets/images/creator2.jpg';
+import creator3 from '../../assets/images/creator3.jpg';
+import creator4 from '../../assets/images/creator4.jpg';
+import nft1 from '../../assets/images/nft-1.jpg';
+import nft2 from '../../assets/images/nft-2.jpg';
+import nft3 from '../../assets/images/nft-3.jpg';
+import nft4 from '../../assets/images/nft-4.jpg';
+import nft5 from '../../assets/images/nft-5.jpg';
+import nft6 from '../../assets/images/nft-6.jpg';
 
 export const Dashboard = () => {
   return (
@@ -90,7 +99,145 @@ export const Dashboard = () => {
               </div>
             </div>
           </div>
-
+          <div className="list-container">
+            <div className="nft-list">
+              <div>
+                <img src={nft1} className="thumbnail" alt="NFT Trend 1" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator2} />
+                  <p>Steven Dominic</p>
+                </div>
+                <h1 className="list-detail-title">Diamond Mine</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>12,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>45h : 35m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="nft-list">
+              <div>
+                <img src={nft2} className="thumbnail" alt="NFT Trend 2" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator3} />
+                  <p>Michael Urban</p>
+                </div>
+                <h1 className="list-detail-title">Paint Dream</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>07,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>32h : 16m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="nft-list">
+              <div>
+                <img src={nft3} className="thumbnail" alt="NFT Trend 3" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator1} />
+                  <p>Gigs Phieter</p>
+                </div>
+                <h1 className="list-detail-title">Texture Solid Art</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>12,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>45h : 35m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="nft-list">
+              <div>
+                <img src={nft4} className="thumbnail" alt="NFT Trend 4" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator2} />
+                  <p>Steven Dominic</p>
+                </div>
+                <h1 className="list-detail-title">Liquid Flow Art</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>12,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>45h : 35m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="nft-list">
+              <div>
+                <img src={nft5} className="thumbnail" alt="NFT Trend 5" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator4} />
+                  <p>Antonie Hogs</p>
+                </div>
+                <h1 className="list-detail-title">Color Human Art</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>12,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>45h : 35m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="nft-list">
+              <div>
+                <img src={nft6} className="thumbnail" alt="NFT Trend 6" />
+              </div>
+              <div className="nft-list-detail">
+                <div className="creator creator-2 flex-div">
+                  <img src={creator3} />
+                  <p>Michael Urban</p>
+                </div>
+                <h1 className="list-detail-title">City On Canvas</h1>
+                <div className="more-detail flex-div">
+                  <div className="more-detail-price">
+                    <p>Place Bid</p>
+                    <h1>12,6 ETH</h1>
+                  </div>
+                  <div className="more-detail-hours">
+                    <p>Sale Endings In</p>
+                    <h1>45h : 35m : 22s</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="show-list flex-div">
+              <button>Show More 
+                <MdExplore className="show-list-icon" size={25} />
+              </button>
+            </div>
+          </div>
         </div>
 
 
